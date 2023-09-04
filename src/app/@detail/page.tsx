@@ -17,11 +17,26 @@ export default function DetailPage() {
             width={100}
             height={100}
           />
-          <h2>name: {user.name}</h2>
-          <p>email: {user.email}</p>
-          <p>phone: {user.phone}</p>
-          <p>website: {user.website}</p>
-          <p>company: {user.company.name}</p>
+          <h2>
+            <span className="text-xl font-bold">Name: </span>
+            {user.name}
+          </h2>
+          <p>
+            <span className="text-xl font-bold">Email: </span>
+            {user.email}
+          </p>
+          <p>
+            <span className="text-xl font-bold">Phone: </span>
+            {user.phone}
+          </p>
+          <p>
+            <span className="text-xl font-bold">Website: </span>
+            {user.website}
+          </p>
+          <p>
+            <span className="text-xl font-bold">company: </span>
+            {user.company.name}
+          </p>
         </div>
       ) : (
         <h1 className="text-3xl font-bold py-52">Click your Mate!</h1>

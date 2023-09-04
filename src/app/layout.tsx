@@ -24,7 +24,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} w-screen h-screen flex justify-center`}
       >
-        <div className="w-full max-w-4xl flex justify-between p-5">
+        <div className="w-full max-w-6xl flex justify-between p-5">
           {user}
           {team}
           {detail}
